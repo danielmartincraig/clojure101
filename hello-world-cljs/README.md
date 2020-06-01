@@ -1,12 +1,8 @@
 # hello-world-cljs
 
-FIXME: Write a one-line description of your library/project.
+This is a simple example project that demos some fundamentals of Clojure using Reagent.
 
-## Overview
-
-FIXME: Write a paragraph about the library/project and highlight its goals.
-
-## Development
+## Development From Commandline
 
 To get an interactive development environment run:
 
@@ -29,9 +25,9 @@ To create a production build run:
 	rm -rf target/public
 	clojure -A:fig:min
 
+## Development From Spacemacs
 
-## License
+To get an interactive development session from Spacemacs:
 
-Copyright © 2018 FIXME
+    M-x cider-jack-in-cljs
 
-Distributed under the Eclipse Public License either version 1.0 or (at your option) any later version.
